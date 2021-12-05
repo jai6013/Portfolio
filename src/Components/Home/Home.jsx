@@ -84,7 +84,7 @@ const Home = ({ scrollRef }) => {
 					</h1>
 					<div className={styles.btn}>
 						<a
-							href='https://drive.google.com/file/d/1MzwMyinrveMwm71jLAojngVeb6mkmCmd/view?usp=sharing'
+							href='https://drive.google.com/file/d/1St6UEwNlfux5E96j8abJzsWl5GS6BUfo/view?usp=sharing'
 							target='blank'
 						>
 							<Button
