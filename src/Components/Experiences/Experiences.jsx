@@ -6,7 +6,7 @@ const Experiences = () => {
 	const { newTheme } = useContext(ThemeContext);
 	return (
 		<div className={styles.experiences}>
-			<h1
+			{/* <h1
 				style={{ color: `${newTheme.title}` }}
 				className={styles.heading}
 			>
@@ -41,8 +41,8 @@ const Experiences = () => {
 						Wrote technical reports from material inspection to product dispatch
 						</li>
 					</ul>
-				</fieldset>
-			</div>
+				</fieldset> */}
+			{/* </div> */}
 		</div>
 	);
 };
