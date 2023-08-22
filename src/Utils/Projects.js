@@ -1,4 +1,5 @@
-import img from '../assets/yatra.png'
+import yatraImage from '../assets/yatra.png'
+import gabImage from '../assets/HomePage.png'
 
 export const projects = [
 	{
@@ -11,7 +12,7 @@ export const projects = [
 		technologies: ['HTML', 'CSS', 'javaScript', 'Express', 'MongoDb'],
 	},
 	{
-		img: img,
+		img: yatraImage,
 		title: 'Yatra',
 		des: 'This is a static clone of a website called Yatra. This clone includes landing, pricing, our story, and the resources page.',
 		demo: '',
@@ -20,7 +21,7 @@ export const projects = [
 		technologies: ['HTML','CSS','React-Js','Express', 'MongoDb', 'Material-ui'],
 	},
 	{
-		img: "https://camo.githubusercontent.com/14507113e3ab6b847e707795dea38b488c59ca402b6f4857bc7f8f461bc4eeda/68747470733a2f2f692e696d2e67652f323032312f31312f31332f6f59666b314d2e706e67",
+		img: gabImage,
 		title: 'Gab',
 		des: 'This is a static clone of a website called Gab. This clone includes landing, pricing, our story, and the resources page.',
 		demo: '',

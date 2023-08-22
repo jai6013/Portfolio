@@ -13,6 +13,8 @@ import Contact from '../Contact/Contact';
 import { ThemeContext } from '../../ContextProvider/ThemeContext';
 import Experiences from '../Experiences/Experiences';
 
+import profilePic from '../../assets/Jai_Yadav_Pic.png'
+
 const Home = ({ scrollRef }) => {
 	const [projectArray, setProjectArray] = useState(
 		projects.slice(0, 4),
@@ -84,7 +86,7 @@ const Home = ({ scrollRef }) => {
 					</h1>
 					<div className={styles.btn}>
 						<a
-							href='https://drive.google.com/file/d/1ZW1nkVJz2emWs63wZgVwuKFxLEMoyZFg/view?usp=sharing'
+							href='https://drive.google.com/file/d/1f7eJj07AvsV4KvxCsE4yipXBa3wbf5RG/view?usp=sharing'
 							target='blank'
 						>
 							<Button
@@ -110,7 +112,7 @@ const Home = ({ scrollRef }) => {
 					className={styles.profileImage}
 				>
 					<img
-						src='https://avatars.githubusercontent.com/u/86410092?v=4'
+						src={profilePic}
 						alt='Profile pic'
 					/>
 				</div>
