@@ -1,17 +1,17 @@
 import React, { createContext, useEffect } from 'react';
 import { theme } from '../Utils/themes';
-import { currentTime } from '../Utils/Time';
+// import { currentTime } from '../Utils/Time';
 
-const getTheme = () => {
-	const time = currentTime();
-	let mode = '';
-	if (time > 18 && time < 6.01) {
-		mode = 'light';
-	} else {
-		mode = 'dark';
-	}
-	return mode;
-};
+// const getTheme = () => {
+// 	const time = currentTime();
+// 	let mode = '';
+// 	if (time > 18 && time < 6.01) {
+// 		mode = 'light';
+// 	} else {
+// 		mode = 'dark';
+// 	}
+// 	return mode;
+// };
 const getMode = JSON.parse(localStorage.getItem('theme')) || 'dark';
 export const ThemeContext = createContext();
 

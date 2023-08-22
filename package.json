@@ -1,5 +1,5 @@
 {
-	"name": "i-am-himanshu",
+	"name": "i-am-jai",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -18,7 +18,7 @@
 	"scripts": {
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
-		"start": "react-scripts start --port 3001",
+		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
