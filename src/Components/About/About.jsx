@@ -1,52 +1,48 @@
-import React from 'react';
-import { ThemeContext } from '../../ContextProvider/ThemeContext';
-import WindowSize from '../../Utils/WindowSize';
-import styles from './About.module.css';
+import React from "react";
+import { ThemeContext } from "../../ContextProvider/ThemeContext";
+import WindowSize from "../../Utils/WindowSize";
+import styles from "./About.module.css";
 
 const About = () => {
-	const { newTheme } = React.useContext(ThemeContext);
-	const [width] = WindowSize();
-	const img =
-		width < 650
-			? 'https://avatars.githubusercontent.com/u/86410092?v=4'
-			: 'https://github.com/himrd95/portfolio/blob/main/public/developer.gif?raw=true';
-	return (
-		<div
-			className={styles.container}
-			style={{ boxShadow: `3px 3px 5px ${newTheme.line}` }}
-		>
-			<div className={styles.first}>
-				<img src={"https://github.com/himrd95/portfolio/blob/main/public/developer.gif?raw=true"} alt='' />
-			</div>
-			<div className={styles.second}>
-				<h1
-					style={{ color: `${newTheme.title}` }}
-					className={styles.heading}
-				>
-					About Me
-				</h1>
-				<div className={styles.borderBottom} />
-				<p
-					style={{ color: `${newTheme.para}` }}
-					className={styles.aboutMe}
-				>
-					Hello! My name is Jai and I enjoy creating things that
-					live on the internet. My interest in web development started
-					back last year when I was trying to edit things on the web —
-					taught me a lot about HTML & CSS!. <br />
-					<br /> Fast Forwarding to today, I built a number of web
-					applications and 3 major projects. Learned a great deal
-					about teamwork, leadership, and communication. After months
-					of rigorous training, here I am
-					<span style={{ color: `#00a0a0` }}>
-						{' '}
-						looking for an opportunity as a full stack web developer
-					</span>
-					.
-				</p>
-			</div>
-		</div>
-	);
+  const { newTheme } = React.useContext(ThemeContext);
+  const [width] = WindowSize();
+  const img =
+    width < 650
+      ? "https://avatars.githubusercontent.com/u/86410092?v=4"
+      : "https://github.com/himrd95/portfolio/blob/main/public/developer.gif?raw=true";
+  return (
+    <div
+      className={styles.container}
+      style={{ boxShadow: `3px 3px 5px ${newTheme.line}` }}
+    >
+      <div className={styles.first}>
+        <img
+          src={
+            "https://github.com/himrd95/portfolio/blob/main/public/developer.gif?raw=true"
+          }
+          alt=""
+        />
+      </div>
+      <div className={styles.second}>
+        <h1 style={{ color: `${newTheme.title}` }} className={styles.heading}>
+          About Me
+        </h1>
+        <div className={styles.borderBottom} />
+        <p style={{ color: `${newTheme.para}` }} className={styles.aboutMe}>
+          Hello, I'm Jai Yadav, a frontend developer with 1.7 years of
+          experience starting in April 2021. I'm passionate about creating
+          engaging web experiences, proficient in HTML, CSS, and JavaScript.
+		  <br></br> 
+		  <br></br> 
+		  I thrive in collaborative environments and have a track record of
+          delivering exceptional web projects. Beyond coding, I enjoy exploring
+          new technologies and tackling coding challenges. Currently, I'm
+          actively <span style={{color:"#00a0a0"}}>seeking frontend development opportunities</span> to further my
+          growth and contribute to innovative projects. .
+        </p>
+      </div>
+    </div>
+  );
 };
 
 export default About;

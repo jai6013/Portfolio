@@ -54,8 +54,8 @@ function App() {
 						<a onClick={handleMenu} href='#projects'>
 							Projects
 						</a>
-						<a onClick={handleMenu} href='#techStacks'>
-							Profeciencies
+						<a onClick={handleMenu} href='#skills'>
+							Skills
 						</a>
 						<a onClick={handleMenu} href='#contact'>
 							Contact

@@ -13,13 +13,13 @@
 }
 
 .card__Container {
-	width: 90%;
+	width: 80%;
 	/* min-height: 80px; */
 	display: flex;
 	position: relative;
 }
 .image {
-	width: 100%;
+	width: 65%;
 	margin-right: 20px;
 	position: relative;
 }

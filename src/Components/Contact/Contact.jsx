@@ -30,6 +30,7 @@ const Contact = () => {
 						target='_blank'
 					>
 						<i className='fas fa-phone-alt' />
+						Phone
 					</a>
 					<a
 						href='mailto: Jai6013@gmail.com'
@@ -38,14 +39,7 @@ const Contact = () => {
 						rel='noreferrer'
 					>
 						<i className='far fa-envelope'></i>
-					</a>
-					<a
-						href='https://twitter.com'
-						aria-label='Twitter'
-						target='_blank'
-						rel='noreferrer'
-					>
-						<i className='fab fa-twitter'></i>
+						Email
 					</a>
 					<a
 						href='https://github.com/jai6013'
@@ -54,6 +48,7 @@ const Contact = () => {
 						target='_blank'
 					>
 						<i className='fab fa-github' />
+						GitHub
 					</a>
 
 					<a
@@ -63,6 +58,7 @@ const Contact = () => {
 						rel='noreferrer'
 					>
 						<i className='fab fa-linkedin-in' />
+						LinkedIn
 					</a>
 				</div>
 			</div>

@@ -13,7 +13,7 @@ import Contact from '../Contact/Contact';
 import { ThemeContext } from '../../ContextProvider/ThemeContext';
 import Experiences from '../Experiences/Experiences';
 
-import profilePic from '../../assets/Jai_Yadav_Pic.png'
+import profilePic from '../../assets/Jai_Yadav_Pic.jpg'
 
 const Home = ({ scrollRef }) => {
 	const [projectArray, setProjectArray] = useState(
@@ -81,12 +81,12 @@ const Home = ({ scrollRef }) => {
 						</div>
 					</h1>
 					<h1>
-						I am a Full Stack Developer based in Bhopal. I build
+						I am a Frontend Web Developer based in Bhopal. I build
 						things for web.
 					</h1>
 					<div className={styles.btn}>
 						<a
-							href='https://drive.google.com/file/d/1f7eJj07AvsV4KvxCsE4yipXBa3wbf5RG/view?usp=sharing'
+							href='https://drive.google.com/file/d/1N-Z-a4LKhaEvwZ95dSCaoNO7iTtvzYVT/view?usp=sharing'
 							target='blank'
 						>
 							<Button
@@ -128,7 +128,7 @@ const Home = ({ scrollRef }) => {
 				<About />
 			</div>
 
-			<div id='techStacks' className={styles.techStacks}>
+			<div id='skills' className={styles.techStacks}>
 				<TechStacks />
 			</div>
 
