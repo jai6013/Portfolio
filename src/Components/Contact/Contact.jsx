@@ -30,7 +30,7 @@ const Contact = () => {
 						target='_blank'
 					>
 						<i className='fas fa-phone-alt' />
-						Phone
+						{"Phone (8269000546)"}
 					</a>
 					<a
 						href='mailto: Jai6013@gmail.com'
