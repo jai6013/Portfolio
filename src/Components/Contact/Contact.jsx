@@ -39,7 +39,7 @@ const Contact = () => {
 						rel='noreferrer'
 					>
 						<i className='far fa-envelope'></i>
-						Email
+						{"Email (jai6013@gmail.com)"}
 					</a>
 					<a
 						href='https://github.com/jai6013'
