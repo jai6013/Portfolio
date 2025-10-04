@@ -81,12 +81,11 @@ const Home = ({ scrollRef }) => {
 						</div>
 					</h1>
 					<h1>
-						I am a Frontend Web Developer based in Bhopal. I build
-						things for web.
+						I am a Full Stack Developer based in Bhopal. I build scalable web applications and SaaS products.
 					</h1>
 					<div className={styles.btn}>
 						<a
-							href='https://drive.google.com/file/d/1N-Z-a4LKhaEvwZ95dSCaoNO7iTtvzYVT/view?usp=sharing'
+							href='https://drive.google.com/file/d/1g6abCwkl18xcuhzN45y2dslgwin1joil/view?usp=sharing'
 							target='blank'
 						>
 							<Button
@@ -147,9 +146,6 @@ const Home = ({ scrollRef }) => {
 					style={{ color: `${newTheme.para}` }}
 				>
 					<Experiences />
-					{/* "Himanshu is not only great for development, he is a problem
-					solver who always delivers an exceptional quality of work.
-					Highly recommended." */}
 				</div>
 			</div>
 
@@ -159,7 +155,7 @@ const Home = ({ scrollRef }) => {
 					style={{ color: `${newTheme.title}` }}
 					className={styles.heading}
 				>
-					Few Things I've Build
+					Few Things I've Built
 				</h1>
 				<div className={styles.borderBottom} />
 				<div>

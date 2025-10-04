@@ -29,16 +29,29 @@ const About = () => {
         </h1>
         <div className={styles.borderBottom} />
         <p style={{ color: `${newTheme.para}` }} className={styles.aboutMe}>
-          Hello, I'm Jai Yadav, a frontend developer with 1.7 years of
-          experience starting in April 2021. I'm passionate about creating
-          engaging web experiences, proficient in HTML, CSS, and JavaScript.
-		  <br></br> 
-		  <br></br> 
-		  I thrive in collaborative environments and have a track record of
-          delivering exceptional web projects. Beyond coding, I enjoy exploring
-          new technologies and tackling coding challenges. Currently, I'm
-          actively <span style={{color:"#00a0a0"}}>seeking frontend development opportunities</span> to further my
-          growth and contribute to innovative projects. .
+          Hello, I'm Jai Yadav, a Software Engineer with 4 years of experience 
+          designing and delivering scalable, high-performance web applications. 
+          Currently working as Software Development Engineer – II at VComm Infomedia, 
+          I specialize in full-stack development with expertise in React.js, Next.js, 
+          Node.js, TypeScript, and AWS cloud infrastructure.
+          <br></br> 
+          <br></br> 
+          I have a proven track record of building products from 0-to-1, including 
+          scaling a B2B SaaS platform (Shopclips) to ₹20 lakh MRR. My experience spans 
+          across Shopify integrations, microservices architecture, performance optimization, 
+          and leading engineering teams in Agile environments. I'm passionate about creating 
+          production-ready solutions that drive business impact and deliver exceptional user 
+          experiences.
+          <br></br> 
+          <br></br>
+          <a 
+            href="https://drive.google.com/file/d/1g6abCwkl18xcuhzN45y2dslgwin1joil/view?usp=sharing" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={{color:"#00a0a0", textDecoration: "underline"}}
+          >
+            Download My Resume
+          </a>
         </p>
       </div>
     </div>
